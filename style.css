@@ -6,10 +6,12 @@
 
 body {
     font-family: "Inter", sans-serif;
+    color: rgb(48,48,48);
     color: #303030; 
 }
 
 header {
+    background-color: #2965F1;
     /* Стили для хедера */
 }
 
