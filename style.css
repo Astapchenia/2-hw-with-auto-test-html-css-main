@@ -86,7 +86,7 @@ select {
     font-weight: 400;
     font-size: 16px;
     color: #303030;
-    padding-left: 20px;
+    padding: 0 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
@@ -103,6 +103,14 @@ select {
 }
 
 .btn {
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background-color: #2965f1;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
     /* Стили для кнопки */
 }
 
@@ -120,7 +128,7 @@ th, td {
 
 footer {
     background: rgba(163, 167, 255, 0.3);
-    padding: 26px 0 27px;
+    padding: 26px 0;
     /* Стили для футера */
 }
 
@@ -129,5 +137,6 @@ footer {
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
+    text-decoration: none;
     /* Стили для футера */
 }
