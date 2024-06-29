@@ -1,7 +1,8 @@
 * {
-   box-sizing: border-box;
-   padding: 0px;
-   margin: 0px; /* Свойства для сброса начальных стилей элементов */
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+      /* Свойства для сброса начальных стилей элементов */
 }
 
 body {
@@ -23,7 +24,7 @@ header span {
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
-/* Стили для текста в хедере IT-INCUBATOR */
+    /* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
@@ -51,7 +52,7 @@ header span {
 }
 
 .main-image {
-    max-width: 715px;;
+    max-width: 715px;
     /* Стили для изображения в первой секции */
 }
 
@@ -75,7 +76,6 @@ select {
     background-image: url(./assets/images/ep_arrow-down.svg);
     background-repeat: no-repeat;
     background-position: right 0 top 50%;
-
     /* Стили для выпадающего списка */
 }
 
@@ -147,8 +147,12 @@ select {
 
 table {
     width: 300px;
-    height: 196px;
     border: 1px solid rgba(48, 48, 48, 0.3);
+    border-collapse: collapse;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #303030;
     /* Стили для таблицы */
 }
 
