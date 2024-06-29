@@ -88,12 +88,13 @@ select {
     /* Стили для заголовков во второй секции */
 }
 
-.skills-list {
+.frameworks-list {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #303030;
-    padding: 0 20px;
+    padding-left: 20px;
+    list-style-image: url(./assets/images/solar_map-arrow-up-bold.svg);
     /* Стили для маркированного списка во второй секции */
 }
 
