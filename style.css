@@ -63,7 +63,19 @@ header span {
 }
 
 select {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
     width: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    appearance: none;
+    background-image: url(./assets/images/ep_arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: right 0 top 50%;
+
     /* Стили для выпадающего списка */
 }
 
@@ -72,12 +84,16 @@ select {
     font-weight: 700;
     font-size: 24px;
     color: #303030;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
 .skills-list {
-
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    padding: 0 20px;
     /* Стили для маркированного списка во второй секции */
 }
 
